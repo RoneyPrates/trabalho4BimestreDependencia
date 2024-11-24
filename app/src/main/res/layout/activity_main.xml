@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Menu"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:text="Venda"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/btVenda"/>
+
+    <Button
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:text="Produto"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/btProduto"/>
+
+    <Button
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:text="Tipo Pagamento"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/btPagamento"/>
+
+    <Button
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Cliente"
+        android:id="@+id/btCadastroCliente"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Endereço"
+        android:id="@+id/btCadastroEndereco"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+
+</LinearLayout>
